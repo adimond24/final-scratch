@@ -1,0 +1,97 @@
+.book-list {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.book-list-header {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-list-header h1 {
+    font-size: 2rem;
+    color: #ff6347;
+    margin: 0;
+}
+
+.book-list-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0 0;
+}
+
+.book-list-content {
+    margin: 20px 0;
+}
+
+.book-list-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.book-list-form input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.book-list-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-list-form button:hover {
+    background-color: #e5533c;
+}
+
+.book-list-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.book-list-item {
+    background: #fff;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.book-title {
+    font-size: 1.5rem;
+    color: #ff6347;
+    margin: 0;
+}
+
+.book-author {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.book-genre,
+.book-year {
+    font-size: 1rem;
+    color: #666;
+    margin: 2px 0;
+}
